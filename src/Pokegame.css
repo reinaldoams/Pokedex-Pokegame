@@ -1,0 +1,50 @@
+.Pokegame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gameCards {
+    display: flex;
+}
+
+.handTitle {
+    display: flex;
+    justify-content: left;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.winnerTextSpan {
+    background-color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 2rem;
+}
+
+.scoreDiv {
+    background-color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20%;
+    padding: 1rem;
+    color: hsl(120, 100%, 80%);
+    font-weight: 300;
+    min-height: 7rem;
+    max-width: 30rem;
+}
+
+.winnerClass {
+    background-color: yellow;
+    color: blue;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 10%;
+}
+
+.loserClass {
+    background-color: red;
+    padding: 1rem;
+    color: yellow;
+    border-radius: 10%;
+}

@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(216, 209, 209);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 0, 0.726);
+    padding: 1rem 2rem;
+    border-radius: 10%;
+    border: 3px solid blue;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.navBarLink {
+    text-decoration: none;
+    color: blue;
+}
+
+.homepage-link {
+    font-size: 4rem;
+    color: blue;
+}
